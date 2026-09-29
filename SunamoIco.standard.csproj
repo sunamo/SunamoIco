@@ -1,0 +1,13 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  <TargetFramework>net6.0-windows</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0"></PackageReference>
+  </ItemGroup>
+</Project>
