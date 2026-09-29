@@ -1,0 +1,14 @@
+version: '3'
+
+tasks:
+  dev:
+    desc: Preflight a build aktualni verze
+    cmds:
+      - pwsh -NoProfile "E:\vs\Scripts_Projects\PowershellScripts\dev-preflight.ps1" -TaskName dev -WorkingDir "{{.USER_WORKING_DIR}}"
+      - dotnet build SunamoIco.standard.csproj
+
+  rel:
+    desc: Build release
+    cmds:
+      - pwsh -NoProfile "E:\vs\Scripts_Projects\PowershellScripts\set-task-title-and-clear.ps1" -TaskName rel
+      - dotnet build -c Release SunamoIco.standard.csproj
