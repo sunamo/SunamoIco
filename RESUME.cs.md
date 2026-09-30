@@ -1,5 +1,5 @@
 ---
-schema_version: 4
+schema_version: 5
 type: library
 file_count: 5
 delete_recommendation_percent: 80
@@ -7,6 +7,9 @@ generated_date: 2026-09-30
 generated_time: 16:49:20
 github_origin: no
 github_source_url: 
+first_commit_date: 2026-09-29
+last_commit_date: 2026-09-29
+commit_count: 3
 ---
 
 ## Description
@@ -27,3 +30,11 @@ Doporučení ke smazání: **80 %** — bez kódu, jen prázdná definice projek
 - Obsahuje 4 soubory (csproj, Taskfile, `.gitignore`, RESUME) a žádné zdrojáky.
 - Vzniklo teprve 2026-09-29 při reorganizaci, jiný obsah nemá.
 - Smazat, pokud se práce s ikonami nezačne implementovat.
+
+## Historie commitů
+
+- První commit: 2026-09-29
+- Poslední commit: 2026-09-29
+- Celkem commitů: 3
+
+- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
