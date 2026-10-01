@@ -1,5 +1,9 @@
 # SunamoIco
 
+## Short description
+
+Prázdná skořápka projektu SunamoIco.standard (net6.0-windows, odkaz na System.Drawing.Common 4.7.0) převzatá ze starého repa standardWithoutDep. Neobsahuje žádné zdrojové soubory, jen definici projektu a Taskfile. Má být místem pro budoucí kód práce s ikonami.
+
 Prázdná skořápka projektu `SunamoIco.standard`, převzatá ze starého repa `standardWithoutDep`.
 
 ## Co v repu je
